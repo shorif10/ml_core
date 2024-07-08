@@ -1,0 +1,13 @@
+name: ml_core
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+
+  - pip
+  - pip:
+    - -r requirements.txt
